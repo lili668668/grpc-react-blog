@@ -1,0 +1,23 @@
+syntax = "proto3"
+
+import "../common/empty.proto"
+import "../common/requestId.proto"
+import "../messages/post.proto"
+
+service PostService {
+  rpc list (Empty) returns (PostList) {}
+  rpc show (RequestId) returns (Post) {}
+  rpc create (PostRequest) returns (Post) {}
+  rpc update (PostRequest) returns (Post) {}
+  rpc remove (RequestId) returns (Post) {}
+}
+
+message PostList {
+  repeated Post posts = 1;
+}
+
+message PostRequest {
+  string title = 1;
+  string content = 2;
+  string author = 3;
+}

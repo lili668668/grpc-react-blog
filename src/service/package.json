@@ -1,0 +1,13 @@
+{
+  "name": "grpc-react-blog-service",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "service-core": "^0.1.0",
+    "grpc-react-blog-protos": "^0.1.0",
+    "sequelize": "latest",
+    "pg": "latest",
+    "pg-hstore": "latest"
+  }
+}

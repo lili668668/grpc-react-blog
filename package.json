@@ -1,0 +1,9 @@
+{
+  "name": "grpc-react-blog",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.8.0"
+  },
+  "scripts": {
+  }
+}

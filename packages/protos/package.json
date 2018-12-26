@@ -1,0 +1,13 @@
+{
+  "name": "grpc-react-blog-protos",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "grpc": "^1.17.0"
+  }
+}
